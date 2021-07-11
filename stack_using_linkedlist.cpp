@@ -1,6 +1,6 @@
 class Node{
     int data ; 
-    Node*next; 
+    Node*connect; 
 
 }; 
 Node*top; 
@@ -8,7 +8,7 @@ void push(int newdata){
     Node*temp; 
 
     temp=new Node(int newdata);
-    temp->next=top; 
+    temp->connect=top; 
     top=temp; 
     
 
