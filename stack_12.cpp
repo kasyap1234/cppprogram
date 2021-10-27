@@ -101,4 +101,5 @@ st.push(s);
     
     st.printStack(); 
     
+    
 }
